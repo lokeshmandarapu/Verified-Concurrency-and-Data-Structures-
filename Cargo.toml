@@ -2,9 +2,10 @@
 name = "verus-lock-service"
 version = "0.1.0"
 edition = "2021"
-authors = ["Lokesh Mandarapu <lokesh@example.com>"]
+authors = ["Lokesh Mandarapu <mandarapulokesh61@gmail.com>"]
 
 [dependencies]
+vstd = { git = "https://github.com/verus-lang/verus", package = "vstd", optional = true }
 
 [features]
-verifier = []
+verifier = ["dep:vstd"]
