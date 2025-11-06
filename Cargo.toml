@@ -1,0 +1,10 @@
+[package]
+name = "verus-lock-service"
+version = "0.1.0"
+edition = "2021"
+authors = ["Lokesh Mandarapu <lokesh@example.com>"]
+
+[dependencies]
+
+[features]
+verifier = []
